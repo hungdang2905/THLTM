@@ -7,10 +7,7 @@ import java.util.List;
 public class C3 {
     static String prefix = "    ";
 
-    public static void main(String[] args) {
-        String path = "E:\\temp";
-        dirTree(path, "|");
-    }
+
 
     public static void dirTree(String path, String temp) {
         File directory = new File(path);
@@ -43,6 +40,10 @@ public class C3 {
                 }
             }
         }
+    }
+    public static void main(String[] args) {
+        String path = "E:\\temp";
+        dirTree(path, "|");
     }
 }
 
