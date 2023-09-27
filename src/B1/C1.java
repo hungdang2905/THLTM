@@ -44,12 +44,12 @@ public class C1 {
     }
 
     public static void main(String[] args) {
-        String path = "E:\\temp";
+        String path = "D:\\temp";
         boolean del = deleteAll(path);
         if (del) {
             System.out.println("success");
         } else {
-            System.out.println("fail");
+            System.out.println("fail ");
         }
     }
 }

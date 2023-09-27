@@ -42,7 +42,7 @@ public class C3 {
         }
     }
     public static void main(String[] args) {
-        String path = "E:\\temp";
+        String path = "D:\\temp";
         dirTree(path, "|");
         System.out.println("hello");
     }

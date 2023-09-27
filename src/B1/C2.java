@@ -29,7 +29,7 @@ public class C2 {
 
 
     public static void main(String[] args) {
-        String path = "E:\\temp";
+        String path = "D:\\temp";
         String pattern = "abc";
         boolean find = findFirst(path, pattern);
 
